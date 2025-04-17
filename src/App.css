@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+}
+.sec1header{
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+     justify-content: space-between;
+    /* background-color: aqua; */
+    margin: auto;
+    max-width: 1800px;
+}
+.headTitle{
+    padding-left: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 20%;
+}
+.headTitle h1{
+font-size: 50px;
+}
+.headBtn{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.top{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+.explore{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .size-6{
+width: 20px;
+    }
+}
+.Our_products{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.subBtn{
+    background-color: #413DEE;
+    color: white;
+    padding: 13px 20px ;
+    border-radius: 30px;
+    border: none;
+  
+}
+.subscribe{
+    background-color: #413DEE;
+    color: white;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 70px 0px;
+    margin-top: 70px;
+}
+.subscribe h1{
+    font-size: 40px;
+}
+.subText{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.enterEmail{
+    border-radius: 25px;
+background-color: white;
+padding: 5px;
+display: flex;
+align-items: center;
+gap: 60px;
+}
+.enterEmail input{
+border: none;
+}
+footer{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+@media (max-width:425px){
+    .sec1header{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .headTitle{
+        padding-left: 0px;
+        width: 90%;
+    }
+    .headTitle h1{
+        font-size:25px;
+    }
+    .HeadImg{
+        width: 100%;
+    }
+    .HeadImg img{
+        width: 100%;
+    }
+    .Our_products{
+    flex-direction: column;
+    gap: 30px;
+    }
+    .subscribe h1{
+        font-size: 25px;
+    }
+    .subText{
+        text-align: center;
+    }
+
+}

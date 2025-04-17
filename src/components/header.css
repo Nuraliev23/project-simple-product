@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+nav{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.headIcon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+@media (max-width:425px){
+    ul{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,40 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    width: 336px;
+    box-shadow: 0px 0px 10px 2px rgba(128, 128, 128, 0.151);
+    border-radius: 20px;
+    padding: 15px;
+    transition: 0.5s ease;
+}
+.price{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.device{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.device button{
+border: none;
+background-color: #413DEE1A;
+color: #413DEE;
+padding: 10px 10px;
+border-radius: 5px;
+}
+.toCart{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.product:hover{
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
